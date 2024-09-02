@@ -1,0 +1,84 @@
+object Form1: TForm1
+  Left = 624
+  Height = 260
+  Top = 254
+  Width = 365
+  Caption = 'Form1'
+  ClientHeight = 260
+  ClientWidth = 365
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 48
+    Width = 114
+    AutoSize = False
+    Caption = 'Введите значение x'
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 15
+    Top = 144
+    Width = 120
+    AutoSize = False
+    Caption = 'Значение функции f'
+  end
+  object Edit1: TEdit
+    Left = 136
+    Height = 23
+    Top = 48
+    Width = 96
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 136
+    Height = 23
+    Top = 144
+    Width = 96
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 136
+    Height = 25
+    Top = 184
+    Width = 96
+    Caption = 'Вычислить'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 256
+    Height = 25
+    Top = 215
+    Width = 91
+    Caption = 'Очистить'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 104
+    Width = 112
+    AutoSize = False
+    Caption = 'Введите значение y'
+  end
+  object Edit3: TEdit
+    Left = 136
+    Height = 23
+    Top = 104
+    Width = 96
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 274
+    Height = 30
+    Top = 55
+    Width = 75
+    Caption = 'Закрыть'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 5
+  end
+end
