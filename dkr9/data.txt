@@ -1,0 +1,6 @@
+Xiaomi Redmi Curved Display,Xiaomi,True,200,30
+Samsung Odyssey G9 S49CG930SI,Samsung,True,240,49
+DEXP DF22N1,Dexp,False,75,21
+Cooler Master CMI-GA241,Cooler Master,False,100,24
+Aoc master,Aoc,True,165,32
+,,False,,
